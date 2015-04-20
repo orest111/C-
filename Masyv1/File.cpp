@@ -2,8 +2,9 @@
 
 void main()
 {
-int n;
+int n=100;
 int**M = new int* [n];
-*M = new int [n];
-*(M+1) = new int [5];
+for( int i=0; i<0; i++)
+{ *(M+i) = new int [n];}
+
 }
